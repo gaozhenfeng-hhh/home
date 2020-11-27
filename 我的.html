@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./我的.css">
+</head>
+<body>
+    <div class="box">
+        <div class="top">
+            <ul>
+                <li>
+                    <div class="zuhe">
+                        <img src="./image/my/down.png" alt="">
+                        <p>APP</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="zuhe">
+                        <img src="./image/my/urse.png" alt="">
+                        <p>我的</p>
+                    </div>
+                </li>
+            </ul>
+            <div class="myt">
+                <img src="./image/my/urse2.png" alt="">
+            </div>
+            <div>
+                <button>登录</button>
+            </div>
+        </div>
+
+        <div class="bottom">
+            <ul>
+                <li>我关注的资源
+                    <img src="./image/my/right.png" alt="">
+                </li>
+                <li>我关注的小区
+                    <img src="./image/my/right.png" alt="">
+                </li>
+                <li>我关注的新房
+                    <img src="./image/my/right.png" alt="">
+                </li>
+                <li>我的看房记录
+                    <img src="./image/my/right.png" alt="">
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+
+<script>
+    function setrem() {
+        var win = document.documentElement.clientWidth || document.body.clientWidth;
+        var ui = 320;
+        document.documentElement.style.fontSize = (win / ui) * 10 + 'px';
+    }
+    setrem();
+    window.onresize = setrem;
+
+</script>
+</html>

@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+html,
+body,
+.box {
+  width: 100%;
+}
+.box {
+  background: #F5F5F5;
+}
+.box .top {
+  background: url('image/my/bg1.png') no-repeat;
+  background-size: 100%;
+}
+.box .top ul {
+  overflow: hidden;
+}
+.box .top ul li {
+  float: right;
+  margin-right: 1.7rem;
+  margin-top: 1.2rem;
+  overflow: hidden;
+}
+.box .top ul li .zuhe {
+  color: white;
+  font-size: 1.2rem;
+}
+.box .top ul li .zuhe img {
+  padding-left: 0.5rem;
+  width: 1.4rem;
+  height: 1.5rem;
+}
+.box .top .myt {
+  text-align: center;
+  margin-top: 1.3rem;
+}
+.box .top .myt img {
+  width: 5.2rem;
+  height: 5.2rem;
+}
+.box .top div:last-of-type {
+  text-align: center;
+}
+.box .top div:last-of-type button {
+  margin-top: 1.5rem;
+  margin-bottom: 2.8rem;
+  font-size: 1.2rem;
+  width: 6.6rem;
+  height: 3rem;
+  background: transparent;
+  border: none;
+  border: 1px solid white ;
+  color: white;
+}
+.box .bottom {
+  margin-top: 1.1rem;
+  background: white;
+}
+.box .bottom ul {
+  margin: 0rem 2rem;
+}
+.box .bottom ul li {
+  border-bottom: 1px solid grey;
+  font-size: 1.2rem;
+  padding: 1.8rem 0 1.8rem 2rem;
+}
+.box .bottom ul li img {
+  margin-left: 17.2rem;
+  width: 1rem;
+  height: 1.5rem;
+}
+.box .bottom ul li:nth-of-type(1) {
+  background: url(image/my/icon1.png) no-repeat 0rem 1.8rem;
+  background-size: 1.6rem;
+}
+.box .bottom ul li:nth-of-type(2) {
+  background: url(image/my/icon2.png) no-repeat 0rem 1.8rem;
+  background-size: 1.6rem;
+}
+.box .bottom ul li:nth-of-type(3) {
+  background: url(image/my/icon3.png) no-repeat 0rem 1.8rem;
+  background-size: 1.6rem;
+}
+.box .bottom ul li:nth-of-type(4) {
+  background: url(image/my/icon4.png) no-repeat 0rem 1.8rem;
+  background-size: 1.6rem;
+}

@@ -1,0 +1,329 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+button {
+  border: none;
+  outline: none;
+}
+html,
+body,
+.box {
+  width: 100%;
+}
+.box {
+  background: #f3f3f3;
+}
+.box .header {
+  width: 100%;
+  overflow: hidden;
+  background: #FF8A00;
+}
+.box .header ul li {
+  float: left;
+}
+.box .header li:first-of-type {
+  margin: 0.6rem 3.4rem;
+}
+.box .header li:first-of-type img {
+  width: 9.9rem;
+  height: 3rem;
+}
+.box .header li:nth-of-type(2) {
+  margin: 0.6rem 2.2rem 0.6rem 5.5rem;
+}
+.box .header li:nth-of-type(2) img {
+  width: 2.4rem;
+  height: 3rem;
+}
+.box .header li:last-of-type {
+  margin: 0.6rem 0rem;
+}
+.box .header li:last-of-type img {
+  width: 2.4rem;
+  height: 3rem;
+}
+.box .input_ {
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid #cccccc;
+  background-color: #f5f5f5;
+  position: relative;
+}
+.box .input_ > input {
+  border: 1px solid #cccccc;
+  border-radius: 0.3rem;
+  padding: 1.4rem 1rem;
+  font-size: 1.2rem;
+  width: 29rem;
+  color: #757575;
+  box-sizing: border-box;
+  background: url(image/SecondHandList/search_03.png) #ffffff no-repeat 25.4rem 1.3rem;
+  background-size: 1.8rem;
+}
+.box .input_ i {
+  position: absolute;
+  right: 6.6rem;
+  top: 2.5rem;
+  height: 1.3rem;
+  font-style: normal;
+}
+.box .title {
+  border-bottom: 1px solid #cccccc;
+  position: relative;
+}
+.box .title .eare {
+  overflow: hidden;
+}
+.box .title .eare li {
+  float: left;
+  width: 25%;
+  box-sizing: border-box;
+  padding: 1.2rem 0rem;
+  text-align: center;
+  position: relative;
+}
+.box .title .eare li a {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.box .title .eare li i {
+  position: absolute;
+  left: 6rem;
+  top: 1.6rem;
+  width: 0;
+  height: 0;
+  font-size: 0;
+  border: 0.5rem solid;
+  border-color: #cccccc transparent transparent transparent;
+  margin-bottom: 1rem;
+}
+.box .title .hide {
+  position: absolute;
+  left: 0rem;
+  top: 4.5rem;
+  width: 100%;
+}
+.box .title .hide .area {
+  overflow: hidden;
+}
+.box .title .hide .area .metro,
+.box .title .hide .area > ul {
+  float: left;
+  width: 33.33%;
+  box-sizing: border-box;
+  background-color: white;
+}
+.box .title .hide .area .metro li,
+.box .title .hide .area > ul li {
+  text-align: center;
+  padding: 1rem 0;
+  width: 100%;
+}
+.box .title .hide .area .metro li a,
+.box .title .hide .area > ul li a {
+  font-size: 1.1rem;
+  color: #666666;
+}
+.box .title .hide .area > .metro {
+  font-weight: bold;
+  background-color: #f0f0f0;
+  width: 8rem;
+  height: 25.2rem;
+}
+.box .title .hide .area > .metro p {
+  font-size: 1.6rem;
+  padding: 1rem 2.3rem;
+}
+.box .title .hide .area > .metro p:first-of-type {
+  color: #ff8a00;
+  background-color: white;
+  border-right: 1px solid white;
+}
+.box .title .hide .area > .metro p:last-of-type {
+  border-right: 1px solid #cccccc;
+  height: 21rem;
+}
+.box .title .hide .area .shadow {
+  float: left;
+  width: 100%;
+  background-color: black;
+  height: 70rem;
+  opacity: 0.5;
+}
+.box .title .hide .price {
+  width: 100%;
+}
+.box .title .hide .price ul {
+  padding: 0 2rem;
+  background-color: white;
+}
+.box .title .hide .price ul li {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #cccccc;
+}
+.box .title .hide .price .shadow {
+  float: left;
+  width: 100%;
+  background-color: black;
+  height: 50rem;
+  opacity: 0.5;
+}
+.box .title .hide .house {
+  width: 100%;
+}
+.box .title .hide .house ul {
+  padding: 0 2rem;
+  background-color: white;
+  text-align: center;
+}
+.box .title .hide .house ul li {
+  overflow: hidden;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #cccccc;
+}
+.box .title .hide .house ul li span {
+  float: left;
+}
+.box .title .hide .house ul li input {
+  float: right;
+}
+.box .title .hide .house ul button {
+  width: 28rem;
+  height: 4rem;
+  background-color: #ff8a00;
+  color: white;
+  margin-bottom: 2rem;
+}
+.box .title .hide .house .shadow {
+  float: left;
+  width: 100%;
+  background-color: black;
+  height: 50rem;
+  opacity: 0.5;
+}
+.box .title .hide .more {
+  width: 100%;
+}
+.box .title .hide .more > ul {
+  padding: 0 2rem;
+  background-color: white;
+}
+.box .title .hide .more > ul li {
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #cccccc;
+}
+.box .title .hide .more > ul li p {
+  font-weight: bold;
+  margin-top: 2rem;
+}
+.box .title .hide .more > ul li ul {
+  overflow: hidden;
+}
+.box .title .hide .more > ul li ul li {
+  float: left;
+  text-align: center;
+  box-sizing: border-box;
+  margin-top: 1.2rem;
+  width: 6.5rem;
+  height: 2.5rem;
+  margin-right: 0.5rem;
+  line-height: 2.5rem;
+  border: 1px solid #cccccc;
+}
+.box .title .hide .more .shadow {
+  float: left;
+  width: 100%;
+  background-color: black;
+  height: 50rem;
+  opacity: 0.5;
+}
+.box .content > ul {
+  padding: 0rem 2rem;
+}
+.box .content > ul li {
+  overflow: hidden;
+  padding: 2.4rem 0;
+  border-bottom: 1px solid #ff8a00;
+}
+.box .content > ul li .imgs {
+  float: left;
+  margin-right: 1.2rem;
+}
+.box .content > ul li .imgs img {
+  width: 8.1rem;
+}
+.box .content > ul li .shop {
+  float: left;
+}
+.box .content > ul li .shop p:nth-of-type(2) {
+  font-size: 1.2rem;
+  padding: 0.2rem 0;
+}
+.box .content > ul li .shop p:nth-of-type(3),
+.box .content > ul li .shop p:nth-of-type(4) {
+  color: #bfb0bf;
+  font-size: 1.2rem;
+  padding: 0.2rem 0;
+}
+.box .content > ul li .shop .pri span:last-of-type {
+  color: #ff8a00;
+  font-weight: bold;
+}
+.box .content > ul li .shop .home {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.box .content > ul li:last-of-type {
+  border-bottom: none;
+}
+.box .footer {
+  background-color: #2f3130;
+  padding: 0 1.6rem;
+}
+.box .footer .page {
+  font-size: 1.2rem;
+  height: 4rem;
+  color: #939494;
+  border-bottom: 1px solid #3e403f;
+  display: inline-flex;
+  align-items: center;
+}
+.box .footer .page span {
+  display: inline-block;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+}
+.box .footer .iphone {
+  overflow: hidden;
+  padding: 1.5rem 0;
+}
+.box .footer .iphone > div {
+  float: left;
+}
+.box .footer .iphone > div p {
+  color: #939494;
+}
+.box .footer .iphone > div img {
+  width: 1.7rem;
+}
+.box .footer .iphone > div:nth-of-type(2) {
+  margin-right: 6.1rem;
+}
+.box .footer .iphone > div:first-of-type,
+.box .footer .iphone > div:nth-of-type(3) {
+  margin-right: 1.7rem;
+  margin-left: 1rem;
+}
+.box .footer .foot {
+  color: #939494;
+  text-align: center;
+  padding-bottom: 0.8rem;
+}

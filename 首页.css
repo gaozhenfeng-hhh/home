@@ -1,0 +1,350 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html,body {
+    font-size: 100px;
+}
+body {
+    min-width: 320px;
+    font-size: 1.6rem;
+}
+ul,li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+i,em {
+    font-style: normal;
+}
+input,button {
+    outline: none;
+}
+.box {
+    border: 1px solid #e3e3e4;
+    background-color: #f5f5f5;
+}
+.box .header {
+    width: 100%;
+    overflow: hidden;
+    background: #FF8A00;
+}
+.box .header ul li {
+    float: left;
+}
+.box .header li:first-of-type {
+    margin: 0.6rem 3.4rem;
+}
+.box .header li:first-of-type img {
+    width: 9.9rem;
+    height: 3rem;
+}
+.box .header li:nth-of-type(2) {
+    margin: 0.6rem 2.2rem 0.6rem 5.5rem;
+}
+.box .header li:nth-of-type(2) img {
+    width: 2.4rem;
+    height: 3rem;
+}
+.box .header li:last-of-type {
+    margin: 0.6rem 0rem;
+}
+.box .header li:last-of-type img {
+    width: 2.4rem;
+    height: 3rem;
+}
+.banner_ {
+    position: relative;
+    width: 100%;
+    height: 22.4rem;
+    background: url('./image/index/banner.png') no-repeat;
+    background-size: 100% 22.4rem;
+}
+.banner_>.input_ {
+    position: absolute;
+    left: 50%;
+    bottom: 0.7rem;
+    transform: translateX(-50%);
+    color: #757575;
+    border-left: 2px solid #9a9a9a;
+    border-top: 2px solid #9a9a9a;
+    border-right: 3px solid #dfdbdb;
+    border-bottom: 3px solid #dfdbdb;
+    border-radius: 4px;
+}
+.banner_>.input_>input {
+    width: 28rem;
+    height: 3rem;
+    line-height: 3rem;
+    text-indent: 2em;
+    font-size: 1.2rem;
+    border: 3px solid #ebebeb;
+    box-sizing: content-box;
+    background: url('./image/index/seach.jpg') no-repeat 0.6rem 0.8rem;
+    background-size: 1.5rem 1.5rem;
+    background-color: #ffffff;
+}
+.nav_ {
+    margin-bottom: 1rem;
+    width: 100%;
+    font-size: 1.2rem;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #ff8a00;
+    overflow: hidden;
+}
+.nav_ li {
+    width: 25%;
+    float: left;
+}
+.nav_ li a {
+    display: block;
+    width: 5.4rem;
+    margin: 1.8rem 0 1.5rem 1.4rem;
+    text-align: center;
+}
+.nav_ li a img {
+    display: block;
+    margin-bottom: 0.6rem;
+    width: 100%;
+    height: 5.4rem;
+}
+.banner_t {
+    width: 100%;
+    height: 23.8rem;
+    background: url('./image/index/banner2.png') no-repeat;
+    background-size: 100% 22.4rem;
+}
+
+/* 热门房源 */
+.nav_2 {
+    padding: 1.2rem 0 1rem 2rem;
+    font-size: 1.8rem;
+    color: #ffffff;
+    background-color: #ff8a00;
+}
+.nav_2 p:nth-child(2) {
+    font-size: 0.9rem;
+}
+.nav_3 {
+    width: 100%;
+    border-bottom: 1px solid #e5e5e5;
+    font-size: 1.2rem;
+    color: #8b8b8b;
+    background-color: #ffffff;
+}
+.nav_3 li {
+    margin: 0 3rem;
+    border-bottom: 1px solid #ff0000;
+}
+.nav_3 li:nth-last-child(1) {
+    border-bottom: none;
+}
+.nav_3>li>.list_ {
+    overflow: hidden;
+}
+.nav_3>li>.list_>.list_l {
+    float: left;
+    padding-top: 2.9rem;
+    padding-bottom: 3rem;
+    padding-right: 1.2rem;
+}
+.nav_3>li>.list_>.list_l>img {
+    width: 8.1rem;
+    height: 8.1rem;
+}
+.nav_3>li>.list_>.list_r>p {
+    margin-top: 2.2rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #191919;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.infor_1 {
+    margin-top: 0.6rem;
+    overflow: hidden;
+    color: #191919;
+}
+.infor_1 span:nth-child(1) {
+    float: left;
+}
+.infor_1 span:nth-child(2) {
+    float: right;
+    color: #ff9517;
+    font-weight: 600;
+}
+.infor_2 {
+    margin-top: 0.6rem;
+    overflow: hidden;
+}
+.infor_2 span:nth-child(1) {
+    float: left;
+}
+.infor_2 span:nth-child(2) {
+    float: right;
+}
+.infor_3 {
+    margin-top: 0.6rem;
+    overflow: hidden;
+}
+.infor_3 span {
+    float: left;
+    padding: 0.5rem 0.2rem;
+    background-color: #f4f7f9;
+}
+.infor_3 span:nth-child(1) {
+    margin-right: 0.3rem;
+}
+.infor_3 span:nth-child(2) {
+    margin-right: 0.3rem;
+}
+
+/* 热门关注 */
+.nav_4 {
+    margin-top: 0.5rem;
+    width: 100%;
+    height: 5.4rem;
+    line-height: 5.4rem;
+    overflow: hidden;
+    font-size: 1.7rem;
+    color: #666666;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #ff8a00;
+}
+.nav_4 li {
+    float: left;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+.active_1 {
+    color:  #ff8a00;
+    box-sizing: border-box;
+    border-bottom: 3px solid #ff8a00;
+}
+.nav_5 {
+    overflow: hidden;
+    padding-top: 1.8rem;
+    padding-bottom: 1.6rem;
+}
+.nav_5 dl {
+    float: left;
+}
+.nav_5 dl dd a {
+    font-size: 1.2rem;
+    color: #666666;
+}
+.nav_5 dl:nth-child(1) {
+    margin-left: 2rem;
+}
+.nav_5 dl:nth-child(2) {
+    margin-left: 8.8rem;
+}
+
+/* 底部 */
+.box .footer1 {
+    background-color: #2f3130;
+    padding: 0 1.6rem;
+}
+.box .footer1 .page {
+    font-size: 1.2rem;
+    height: 4rem;
+    color: #939494;
+    border-bottom: 1px solid #3e403f;
+    display: inline-flex;
+    align-items: center;
+}
+.box .footer1 .page span {
+    display: inline-block;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+}
+.box .footer1 .iphone {
+    overflow: hidden;
+    padding: 1.5rem 0;
+}
+.box .footer1 .iphone > div {
+    float: left;
+}
+.box .footer1 .iphone > div p {
+    color: #939494;
+}
+.box .footer1 .iphone > div img {
+    width: 1.7rem;
+}
+.box .footer1 .iphone > div:nth-of-type(2) {
+    margin-right: 6rem;
+}
+.box .footer1 .iphone > div:first-of-type,
+.box .footer1 .iphone > div:nth-of-type(3) {
+    margin-right: 1.7rem;
+    margin-left: 1rem;
+}
+.box .footer1 .foot {
+    color: #939494;
+    text-align: center;
+    padding-bottom: 0.8rem;
+}
+
+/* 固定定位 */
+.nian {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 4rem;
+}
+.nian ul {
+    overflow: hidden;
+    height: 4rem;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.nian ul li {
+    float: left;
+    line-height: 3.5rem;
+    margin-left: 2rem;
+}
+.nian ul li img {
+    width: 2.5rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.nian ul li button {
+    width: 11rem;
+    height: 4rem;
+    border: none;
+    color: #fff;
+    background-color: #ff8a00;
+    font-size: 1.4rem;
+}
+
+.nian ul li:nth-of-type(2) {
+    color: #fff;
+    margin-top: .5rem;
+    margin-right: 1rem;
+    line-height: 1.3rem;
+}
+.nian ul li:nth-of-type(2) p:nth-of-type(1) {
+    font-size: 1.8rem;
+}
+.nian ul li:nth-of-type(2) p:nth-of-type(2) {
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+}
+.nian ul li:nth-of-type(3) {
+    float: right;
+    margin-top: -3rem;
+}
+
+#x {
+    position: absolute;
+    top: 0;
+    left: .3rem;
+    color: #ccc;
+    width: 1rem;
+    height: 1rem;
+}
